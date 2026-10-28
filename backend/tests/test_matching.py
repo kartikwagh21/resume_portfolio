@@ -7,11 +7,6 @@ from backend.scripts.seed_data import seed_database
 client = TestClient(app)
 
 
-@pytest.fixture(scope="module", autouse=True)
-def prepare_seed():
-    seed_database()
-
-
 def test_matching_endpoint_fullstack_jd():
     jd = """
     We are seeking a Lead Full-Stack Engineer with strong Python and React skills.

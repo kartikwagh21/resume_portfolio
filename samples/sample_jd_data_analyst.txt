@@ -1,0 +1,24 @@
+Job Title: Senior Data & Analytics Engineer
+Company: MetroMetrics Data Labs
+Location: San Jose, CA (Remote Friendly)
+
+About the Role:
+MetroMetrics is looking for an analytical, systems-minded Senior Data & Analytics Engineer to build robust data pipelines, optimize analytical query performance, and surface actionable business metrics from billions of raw telemetry events.
+
+Key Responsibilities:
+- Design and maintain end-to-end data ingestion pipelines handling over 500GB+ daily customer and operational data.
+- Architect high-performance analytical queries, sharded schemas, and data aggregation pipelines in PostgreSQL and SQL.
+- Develop data processing scripts and automated reporting workflows in Python using Pandas and SQLAlchemy.
+- Partner with product analytics teams to construct dashboards, detect telemetry anomalies, and monitor real-time event streams with Kafka and Redis.
+- Ensure strict data reliability, automated pipeline testing, and observability across all ETL workflows.
+
+Requirements:
+- 4+ years of data engineering, analytics engineering, or backend database development experience.
+- Expert-level SQL and relational database query optimization (indexing, partitioning, latency tuning).
+- Advanced Python data scripting skills (Pandas, automated ETL workflows).
+- Experience working with high-volume streaming platforms (Apache Kafka) and caching layers (Redis).
+- Proven ability to reduce query latency and extract quantitative insights from massive event datasets.
+
+Nice to Have:
+- Cloud certifications (AWS Solutions Architect, CKA).
+- Published research or conference talks on database performance or distributed streaming architectures.

@@ -6,11 +6,6 @@ from backend.scripts.seed_data import seed_database
 client = TestClient(app)
 
 
-@pytest.fixture(scope="module", autouse=True)
-def init_db():
-    seed_database()
-
-
 def test_sheets_status():
     res = client.get("/api/v1/sheets/status")
     assert res.status_code == 200

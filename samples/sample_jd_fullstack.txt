@@ -1,0 +1,24 @@
+Job Title: Senior Full-Stack Engineer
+Company: CloudNexus Technologies
+Location: San Francisco, CA (Hybrid)
+
+About the Role:
+We are seeking a talented Senior Full-Stack Engineer to architect and build high-throughput, low-latency web services and reactive user interfaces. You will join our core product engineering team driving our next-generation enterprise telemetry platform.
+
+Key Responsibilities:
+- Design, implement, and maintain resilient RESTful and event-driven microservices in Python (FastAPI).
+- Build clean, responsive, and accessible user interfaces using React, TypeScript, and modern styling libraries.
+- Optimize high-volume database queries, table indexing, and caching layers with PostgreSQL and Redis.
+- Orchestrate containerized workloads in Docker and Kubernetes (EKS).
+- Partner with product managers and mentors across the engineering organization to ship high-impact features.
+
+Requirements:
+- 4+ years of professional full-stack development experience.
+- Expert proficiency in Python (FastAPI/Flask) and JavaScript/TypeScript (React).
+- Strong experience with relational databases (PostgreSQL, MySQL) and ORMs (SQLAlchemy).
+- Solid hands-on knowledge of Docker, Kubernetes, CI/CD pipelines, and cloud environments (AWS).
+- Demonstrated experience building reliable distributed systems serving millions of daily requests.
+
+Nice to Have:
+- Experience with Apache Kafka, GraphQL, and micro-frontend architectures.
+- Contributions to open-source software libraries.

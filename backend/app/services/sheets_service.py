@@ -158,7 +158,7 @@ class SheetsService:
 
         # Save to mock sheet storage
         cls._mock_sheet_storage = tables_data
-        cls._last_synced_at = datetime.utcnow().isoformat()
+        cls._last_synced_at = datetime.now(timezone.utc).isoformat()
         cls._last_sync_status = "Exported to Mock Sheet Storage (Ready for sync)"
 
         return {
@@ -232,7 +232,7 @@ class SheetsService:
                     )
                     synced_counts["skills"] += 1
 
-        cls._last_synced_at = datetime.utcnow().isoformat()
+        cls._last_synced_at = datetime.now(timezone.utc).isoformat()
         cls._last_sync_status = "Successfully synced from Sheet to DB"
 
         return {

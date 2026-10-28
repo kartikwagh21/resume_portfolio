@@ -11,12 +11,15 @@ from backend.app.models.activities import Language, ExtraActivity
 from backend.app.models.history import ResumeHistory
 
 
-def seed_database():
-    print("🌱 Re-initializing database tables...")
-    Base.metadata.drop_all(bind=engine)
-    Base.metadata.create_all(bind=engine)
+def seed_database(target_engine=None):
+    use_engine = target_engine or engine
+    print(f"🌱 Re-initializing database tables on {use_engine}...")
+    Base.metadata.drop_all(bind=use_engine)
+    Base.metadata.create_all(bind=use_engine)
 
-    db = SessionLocal()
+    from sqlalchemy.orm import sessionmaker
+    ScopedSession = sessionmaker(autocommit=False, autoflush=False, bind=use_engine)
+    db = ScopedSession()
     try:
         print("🌱 Seeding Profile...")
         profile = Profile(

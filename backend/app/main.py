@@ -45,6 +45,7 @@ from backend.app.api.v1.smart_import import router as import_router
 from backend.app.api.v1.jd_analysis import router as jd_router
 from backend.app.api.v1.matching import router as matching_router
 from backend.app.api.v1.sheets import router as sheets_router
+from backend.app.api.v1.resume import router as resume_router
 
 app.include_router(profile_router, prefix=settings.API_V1_STR)
 app.include_router(portfolio_router, prefix=settings.API_V1_STR)
@@ -52,3 +53,4 @@ app.include_router(import_router, prefix=settings.API_V1_STR)
 app.include_router(jd_router, prefix=settings.API_V1_STR)
 app.include_router(matching_router, prefix=settings.API_V1_STR)
 app.include_router(sheets_router, prefix=settings.API_V1_STR)
+app.include_router(resume_router, prefix=settings.API_V1_STR)
